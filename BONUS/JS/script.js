@@ -13,7 +13,7 @@ for (var i = 1; arr.length != 5; i++) {
 }
 
 // Stampo un'alert per permettere all'utente di memorizzarli
-alert("Numbers to remeber:\n" + arr.join(" / "));
+alert("Numbers to remember:\n" + arr.join(" / "));
 console.log("DO NOT FORGET THEM!");
 
 // Dopo 30sec/3sec chiedo all'utente di reinserire i numeri e stampo il risultato

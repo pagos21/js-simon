@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2{
+  color: red;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.hide{
+  display: none;
+}
+
+.show{
+  display: block;
+}
+
+.input{
+  text-align: center;
+}
+
+.listArt{
+  background-color: grey;
+  color: white;
+  text-align: center;
+}

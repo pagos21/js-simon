@@ -26,7 +26,7 @@ setTimeout(function () {
     } }
   console.log("Erano " + arr);
   console.log("Ne hai beccate " + (correct.length) + "/5" + " e sono " + correct);
-}, 3000);
+}, 30000);
 
 
 // funzione alternatica a includes

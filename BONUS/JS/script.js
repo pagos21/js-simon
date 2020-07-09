@@ -28,11 +28,16 @@ setTimeout(function () {
 count = 0;
   btn.addEventListener("click", function(){
     var userNum = parseInt($("#numInp").val());
+    if (isNaN(userNum) || userNum == "") {
+      $(".errors").append("<li> Input non valido </li>");
+    }
+    else {
+      count += 1;
+    }
     console.log(userNum);
       if (arr.includes(userNum)) {
         correct.push(userNum);
       }
-      count += 1;
       if (count >= 5) {
         $("#numInp").addClass("hide");
         $("#btn").addClass("hide");
